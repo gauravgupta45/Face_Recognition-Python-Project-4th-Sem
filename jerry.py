@@ -86,7 +86,7 @@ def recognize():
     text_file = open("names_list.txt", "r")
     names_list = text_file.readlines()
 
-    cam = cv2.VideoCapture(0)
+    cam = cv2.VideoCapture(1)
     cam.set(3, 640)
     cam.set(4, 480)
 
@@ -242,7 +242,7 @@ canvas4.create_image(150,80,image=img_face)
 
 def register():
     
-    cam = cv2.VideoCapture(0)
+    cam = cv2.VideoCapture(1)
     face_detector = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
     #face_id = input('\nEnter Your User Id:  ')
