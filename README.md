@@ -3,7 +3,7 @@
 
 ### Steps: ###
 
-* Right click in the folder where project is located and click Open in terminal.
+* Right click in the folder where all the above files are located and click Open in terminal.
 
 * Type `python jerry.py` to run the main script.
 
