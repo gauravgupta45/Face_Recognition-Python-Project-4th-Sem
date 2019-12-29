@@ -1,1 +1,0 @@
-all the taken images will be saved in this folder.
