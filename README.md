@@ -19,7 +19,7 @@
 
 * After your face model is trained completely, screen will dissappear.
 
-* Now you have to login by clicking Login button. 
+* Now you have to login by clicking `Sign In` button. 
 
 * Camera screen will get Opened and if any trained face appear at screen, login page in GUI will be opened.
  
