@@ -80,7 +80,7 @@ def recognize():
 
 
 
-    #names = ['None', 'Gaurav', 'Sagar', 'Rahul', 'Z', 'W']
+    
     #names=['None']
     #names.append(name)
     text_file = open("names_list.txt", "r")
