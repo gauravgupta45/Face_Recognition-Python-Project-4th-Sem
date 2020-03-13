@@ -1,6 +1,6 @@
-##### :heavy_exclamation_mark: Before running the main script `jerry.py` cut the Icon folder(located in GUI folder) and paste it into `/home/pi` directory of raspberry pi(if you are running this project on your pc then change the icons path in script accordingly). Also install the fonts present the Fonts folder.#####
+##### :heavy_exclamation_mark: Before running the main script `jerry.py` cut the Icon folder(located in GUI folder) and paste it into `/home/pi` directory of raspberry pi(if you are running this project on your pc then change the icons path in script accordingly). Also install the fonts present the Fonts folder.
 
-##### :heavy_exclamation_mark: If you have an error of list index (like out of range), then check names_list.txt file. There must not be any redundant spaces present. Or if there are names that get appended in the same line, mind to keep them in the seperate lines. ###
+##### :heavy_exclamation_mark: If you have an error of list index (like out of range), then check names_list.txt file. There must not be any redundant spaces present. Or if there are names that get appended in the same line, mind to keep them in the seperate lines.
 
 ### Steps: ###
 
