@@ -1,4 +1,4 @@
-##### :heavy_exclamation_mark: Before running the main script `jerry.py` cut the GUI folder and paste it into `/home/pi` directory of raspberry pi(if you are running this project on your pc then change the icons path in script accordingly). #####
+##### :heavy_exclamation_mark: Before running the main script `jerry.py` cut the Icon folder(located in GUI folder) and paste it into `/home/pi` directory of raspberry pi(if you are running this project on your pc then change the icons path in script accordingly). #####
 
 
 ### Steps: ###
