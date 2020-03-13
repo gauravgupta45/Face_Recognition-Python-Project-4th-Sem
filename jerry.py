@@ -250,14 +250,25 @@ def register():
     #name = input('\nEnter Your Name:  ')
     name=Name.get()
     #empty line error:
-    """" Following code will remove any empty line that exists in the names_list.txt file """
+    #file_length function will find the no. of lines in names_list.txt file.
+    #This was done becoz, when the maiden name is added to names_list txt file it appends in the first line with None, which inturn will throw the "list index out of range" error later.
+    def file_length(fname):
+        with open(fname) as f:
+                for i, l in enumerate(f):
+                        pass
+        return i + 1
+    nol = file_length("names_list.txt")
+    #Following code will remove any empty line that exists in the names_list.txt file
     with open("names_list.txt", 'r+') as fd:
         lines = fd.readlines()
         fd.seek(0)
         fd.writelines(line for line in lines if line.strip())
         fd.truncate()
     with open("names_list.txt","a") as myfile:
-        myfile.write("{}\n".format(name))
+        if(nol == 1):
+           myfile.write("\n{}\n".format(name))
+        else:
+            myfile.write("{}\n".format(name))
 
     print("\nInitializing face capture. Look the camera and wait ...")
     final_message.configure(text="Initializing face capture. Look the camera and wait ...")
