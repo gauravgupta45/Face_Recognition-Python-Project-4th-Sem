@@ -32,25 +32,25 @@ def win_signup_alert():
 
 
 
-img_fb = PhotoImage(file="/home/pi/fb_s.png")
+img_fb = PhotoImage(file="/home/pi/Icons/fb_s.png")
 btn_fb = Button(win,bg='Orange',relief = SUNKEN,image=img_fb,borderwidth=0,cursor="hand2")
 btn_fb.configure(width=25,height=25)
 fb_window = canvas1.create_window(26, 18, window=btn_fb)
 
 
-img_tw = PhotoImage(file="/home/pi/twitter_s.png")
+img_tw = PhotoImage(file="/home/pi/Icons/twitter_s.png")
 btn_tw = Button(win,bg='Orange',relief = SUNKEN,image=img_tw,borderwidth=0,cursor="hand2")
 btn_tw.configure(width=25,height=25)
 tw_window = canvas1.create_window(63, 18, window=btn_tw)
 
 
-img_insta = PhotoImage(file="/home/pi/insta_s.png")
+img_insta = PhotoImage(file="/home/pi/Icons/insta_s.png")
 btn_ig = Button(win,bg='Orange',relief = SUNKEN,image=img_insta,borderwidth=0,cursor="hand2")
 btn_ig.configure(width=28,height=28)
 ig_window = canvas1.create_window(103, 18, window=btn_ig)
 
 
-img_yt = PhotoImage(file="/home/pi/yt_s.png")
+img_yt = PhotoImage(file="/home/pi/Icons/yt_s.png")
 btn_yt = Button(win,bg='Orange',relief = SUNKEN, image=img_yt,borderwidth=0,cursor="hand2")
 btn_yt.configure(width=28,height=28)
 yt_window = canvas1.create_window(142, 18, window=btn_yt)
@@ -174,7 +174,7 @@ def recognize():
 
 
 
-img_reg = PhotoImage(file="/home/pi/regis.png")
+img_reg = PhotoImage(file="/home/pi/Icons/regis.png")
 canvas1.create_image(300,19,image=img_reg)
 btn_sign_up = Button(win,text="Sign Up",fg="White",bg='Orange',relief=SUNKEN,borderwidth=0,cursor="hand2",command=win_signup_alert)
 btn_sign_up.configure(width=6,height=1)
@@ -183,7 +183,7 @@ canvas1.create_window(350,19,window=btn_sign_up)
 
 canvas1.create_line(400,13,400,28,fill="white")
 
-img_login = PhotoImage(file="/home/pi/login.png")
+img_login = PhotoImage(file="/home/pi/Icons/login.png")
 canvas1.create_image(420,19,image=img_login)
 btn_sign_in = Button(win,text="Sign In",fg="White",bg='Orange',relief=SUNKEN,borderwidth=0,cursor="hand2",command=recognize)
 btn_sign_in.configure(width=5,height=1)
@@ -192,7 +192,7 @@ canvas1.create_window(469,19,window=btn_sign_in)
 
 canvas1.create_line(512,13,512,28,fill="white")
 
-img_msg = PhotoImage(file="/home/pi/msg.png")
+img_msg = PhotoImage(file="/home/pi/Icons/msg.png")
 canvas1.create_image(530,19,image=img_msg)
 btn_gmail_open = Button(win,text="info@gg's_page.org",fg="White",bg='Orange',relief=SUNKEN,borderwidth=0,cursor="hand2")
 btn_gmail_open.configure(width=15,height=1)
@@ -204,7 +204,7 @@ canvas_middle.place(x=0,y=40)
 
 canvas_middle.create_text(350,30,text="SBI NetBanking",font=("Boulder Bold",28))
 
-img_edit=PhotoImage(file="/home/pi/edit.png")
+img_edit=PhotoImage(file="/home/pi/Icons/edit.png")
 canvas_middle.create_image(45,70,image=img_edit)
 
 canvas_middle.create_text(145,75,text="User Sign up",font=("Myriad Pro Light",18))
@@ -234,7 +234,7 @@ id_entry=Entry(win,width=15,textvar=ID).place(x=90,y=240)
 
 canvas4=Canvas(win,width=300,height=170)
 canvas4.place(x=380,y=150)
-img_face=PhotoImage(file="/home/pi/face_m.png")
+img_face=PhotoImage(file="/home/pi/Icons/face_m.png")
 canvas4.create_image(150,80,image=img_face)
 
 
