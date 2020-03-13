@@ -162,7 +162,7 @@ def recognize():
         k = cv2.waitKey(10) & 0xff # Press 'ESC' for exiting video
         if k == 27:
             break
-    print("\nExiting Programme!\n")
+    print("\nExiting Programe!\n")
     final_message.configure(text="Exiting Programme!")
     cam.release()
     cv2.destroyAllWindows()
@@ -360,7 +360,7 @@ if choice==1:
     if cont=='y':
         recognize()
     elif cont=='n':
-        print("Exiting Programme!")
+        print("Exiting Program!")
 
 
 elif choice==2:
